@@ -7,11 +7,11 @@ Package.describe({
 });
 
 Package.onUse(function (api) {
-  api.versionsFrom('METEOR@1.0.3.1');
+  api.versionsFrom('METEOR@1.6.1');
 
   // Core dependencies.
   api.use([
-    'coffeescript',
+    'coffeescript@2.3.2',
     'reactive-var',
     'tracker',
     'underscore'
@@ -37,7 +37,7 @@ Package.onUse(function (api) {
 Package.onTest(function (api) {
   // Core dependencies.
   api.use([
-    'coffeescript',
+    'coffeescript@2.3.2',
     'templating',
     'jquery',
     'reactive-var',
